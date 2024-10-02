@@ -28,6 +28,7 @@ void main(){
 
   
   List <int> num = [9,7,19,14,33,18]; 
+  print(findOdds); 
 
 }  
 
@@ -53,9 +54,11 @@ void filterVisitors (listofAge,minimumAge){
 
   }
 
-  void findOdds(num,oddnum){
+  void findOdds(){
 
-(List<int> num, int oddnum)
+List<int> num= [3,10,2,5,6,7,];
+var oddnum= num.firstWhere((n)=>n.isOdd); 
+
 
 
 
@@ -72,3 +75,4 @@ void filterVisitors (listofAge,minimumAge){
 
 
 
+ 
